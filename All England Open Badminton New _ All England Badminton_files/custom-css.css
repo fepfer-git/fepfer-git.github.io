@@ -1,0 +1,199 @@
+/* Global
+-------------------------------------------------*/
+body, h1, h2, h3, h4, h5, h6, p, #nav span.menu-text, #nav li a span, .fusion-button span, #news-post .fusion-load-more-button, #about-table thead th { font-family: din-2014, sans-serif !important; font-weight: 400 !important; font-style: normal !important; }
+.header h1 { font-weight: bold !important; text-transform: uppercase !important; }
+/* Footer 
+-------------------------------------------------*/
+#footer p { margin: 0px 0px 10px !important; }
+#footer .logo-bar img { max-width: 125px !important; max-height: 50px !important; }
+/* Homepage
+/* Ticket Info
+------------------------*/
+#ticket-info .ticket-card .fusion-column-wrapper { min-height: 350px !important; justify-content: flex-end !important; position: relative !important; }
+#ticket-info .ticket-card .fusion-column-wrapper:after { content: "" !important; width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: rgb(255,255,255); background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%); }
+#ticket-info .ticket-card :is(.fusion-title, .fusion-button) { z-index: 1 !important; }
+/* News
+------------------------*/
+#news article .fusion-post-wrapper { border: none !important; }
+#news article .fusion-post-content-wrapper { padding: 25px 0px 0px !important; }
+#news article .fusion-content-sep, #news article .fusion-read-more:after { display: none !important; }
+#news article h2 { font-size: 24px !important; margin-bottom: 10px !important; }
+#news article .fusion-post-content span { color: #009b3a !important; font-size: 18px !important; }
+#news article .fusion-read-more { padding: 10px 30px !important; background: #009b3a !important; color: #fff !important; text-transform: uppercase !important; }
+/* Video Vault
+------------------------*/
+#video-vault .fusion-text p { margin-top: 0px !important; }
+
+/* About the Championship
+-------------------------------------------------*/
+#about-table thead th { background: #009b3a !important; text-align: center !important; color: #fff !important; border-color: #707070 !important; text-transform: uppercase !important; height: 75px !important; }
+#about-table tr, #about-table td { background: #fff !important; text-align: center !important; color: #000 !important; border-color: #707070 !important; height: 75px !important; }
+#timeline .timeline-wrapper:after { content: "" !important; position: absolute !important; width: 1px !important; height: 100% !important; background: #009b3a !important; left: 0px !important; right: 0px !important; margin: auto !important; }
+#partners .bwf-logo { padding: 0 10%; aspect-ratio: 1/1; }
+#partners .bwf-logo img { margin: 22% 0; }
+/* Travel
+-------------------------------------------------*/
+#travel-tabs .fusion-tabs { margin: 0px !important; }
+#travel-tabs .tab-map { position: absolute !important; top: -700px !important; }
+#travel-tabs .tab-pane { border: none !important; padding: 50px 0px 0px !important; }
+#travel-tabs .nav ul { border: none !important; }
+#travel-tabs .nav li { padding: 0px 10px !important; }
+#travel-tabs .nav li:first-of-type { padding-left: 0px !important; }
+#travel-tabs .nav li:last-of-type { padding-right: 0px !important; }
+#travel-tabs .nav li.active a { background: #000 !important; border-top-color: #000 !important; }
+#travel-tabs .nav li a { background: #009b3a !important; border-top-color: #009b3a !important; }
+#travel-tabs .nav h4 { color: #fff !important; }
+#travel-tabs-edit { display: none !important; }
+/* News Page & Articles
+-------------------------------------------------*/
+.news-page .news-post-content article { margin: 0px !important; }
+.news-page .news-post-content :is(h2, a) { font-size: 40px !important; color: #000 !important; }
+.news-page .news-post-content .fusion-text :is(h2, a){ font-size:16px!important; }
+.news-page .news-post-content .fusion-text :is(a){ text-decoration:underline; }
+.news-page .news-post-content .fusion-flexslider { max-width: 848px !important; margin-bottom: 25px !important; }
+#news-post .fusion-content-tb .fusion-fullwidth, .news-page .fusion-post-content-container .fusion-fullwidth { padding: 0px !important; }
+#news-post .recent-news article { padding-bottom: 25px !important; margin-bottom: 25px !important; border-bottom: 1px solid #777 !important; }
+#news-post .recent-news article:last-of-type { padding: 0px !important; margin: 0px !important; border: none !important; }
+#news-post .recent-news .fusion-title { padding-bottom: 10px !important; border-bottom: 1px solid #777 !important; }
+#news-post .recent-news article h2 { font-size: 18px !important; margin: 0px !important; }
+#news-post .recent-news article .fusion-meta-info { margin: 5px 0px 0px !important; border: none !important; padding: 0px !important; color: #009b3a !important; }
+#news-post .recent-news .fusion-load-more-button { padding: 0px !important; margin: 35px 0px 0px !important; background: #009b3a !important; color: #fff !important; font-size: 18px !important; }
+
+/* Media Queries
+-------------------------------------------------*/
+@media only screen and (min-width: 1025px) {
+    /* Global
+    -------------------------------------------------*/
+    .fusion-fullwidth { padding-right: 50px!important; }
+    /* Nav
+    -------------------------------------------------*/
+    #nav { width: 100% !important; }
+    #nav.fusion-sticky-transition { border-bottom: 1px solid #707070 !important; transition: all ease-in-out 0.3s !important; }
+    #nav #menu-nav { padding: 15px 0px !important; width: fit-content !important; margin-left: auto !important; }
+    #nav #menu-nav li:last-of-type :is(span, a) { padding: 0px !important; border: none !important; }
+    /* Social Sidebar
+    -------------------------------------------------*/
+    #sidebar-social { position: fixed !important; right: 0 !important; top: 20.5% !important; justify-content: flex-end !important; max-width: fit-content !important; z-index: 99999 !important; }
+    #sidebar-social > .fusion-column-wrapper { padding: 17.5px 0px !important; width: 42px !important; align-items: center !important; display: flex !important; flex-direction: column !important; justify-content: flex-start !important; margin: 0px !important; min-height: 158px !important; }
+    #sidebar-social .fusion-social-networks-wrapper { display: flex !important; flex-direction: column !important; }
+    #sidebar-social .sidebar-tickets { transform: rotate(90deg) translate(85px, -8px); white-space: nowrap; }
+    #sidebar-social .sidebar-arrow { transform: rotate(90deg) translate(155px, 0px); }
+    #sidebar-tickets { position: fixed !important; right: -80px !important; top: 30% !important; justify-content: flex-end !important; max-width: fit-content !important; z-index: 99999 !important; }
+    #sidebar-tickets .fusion-column-inner-bg { transform: rotate(90deg) !important; }
+    #sidebar-tickets > .fusion-column-wrapper { display: flex !important; justify-content: center !important; background: #009b3a !important; width: fit-content !important; margin: 0px !important; transform: rotate(90deg) !important; flex-direction: row !important; padding: 7.5px 15px !important; }
+    #sidebar-tickets > .fusion-column-wrapper i { display: flex !important; justify-content: flex-start !important; align-items: center !important; margin: 0px !important; width: fit-content !important; }
+	
+	#sidebar-ticket { position: fixed !important; right: -1px !important; top: 33.5% !important; justify-content: flex-end !important; max-width: 42px !important; z-index:99999 !important; min-height:200px; }
+	#sidebar-ticket .sidebar-tickets { transform: rotate(90deg) translate(15px, -6px); white-space: nowrap; }
+	#sidebar-ticket .fb-icon-element{ transform: rotate(90deg) translate(160px, 0px)!important; }
+}
+@media only screen and (max-width: 1920px) {
+    /* Social Sidebar
+    -------------------------------------------------*/
+    /*#sidebar-social { top: 17.5% !important; }*/
+    /*#sidebar-tickets { top: 43% !important; }*/
+}
+@media only screen and (max-width: 1500px) {
+    /* Social Sidebar
+    -------------------------------------------------*/
+    /*#sidebar-tickets { top: 52.5% !important; }*/
+}
+@media only screen and (max-width: 1200px) {
+    /* Social Sidebar
+    -------------------------------------------------*/
+    /*#sidebar-social, #sidebar-tickets { display: none !important; }*/
+    /* Footer 
+    -------------------------------------------------*/
+    #footer .links { width: 33% !important; }
+    #footer .logos { width: 100% !important; }
+    #footer .logos .fusion-column-wrapper { justify-content: center !important; padding: 0px !important; }
+    #footer .logos .fusion-imageframe { min-width: 175px !important; display: flex !important; justify-content: center !important; align-items: center !important; margin-right: 0px !important; }
+    #footer .logos img { max-width: 125px !important; }
+    #footer p { text-align: center !important; }
+    #footer .logo-bar img { max-width: 90px !important; max-height: 40px !important; }
+    #footer-social .fusion-column-wrapper { justify-content: center !important; }
+    #footer-social a.fusion-social-network-icon { font-size: 20px !important; }
+    
+    /* Travel
+    -------------------------------------------------*/
+    #travel-tabs .tab-wrapper { margin-top: 500px !important; }
+    #travel-tabs .tab-map { top: -600px !important; }
+}
+@media only screen and (max-width: 1024px) {
+    /* Global
+    -------------------------------------------------*/
+    h1 { font-size: 50px !important; }
+    h2 { font-size: 32px !important; }
+    h3 { font-size: 24px !important; }
+    h4 { font-size: 20px !important; }
+    /* Nav
+    -------------------------------------------------*/
+    #nav .fusion-imageframe { z-index: 99999 !important; max-width: 100px !important; margin-top: -20px !important; margin-bottom: -20px !important; }
+    #nav #menu-nav { margin-top: 2.5px !important; z-index: 9999 !important; }
+    /* Homepage
+    /* Ticket Info
+    ------------------------*/
+    #ticket-info .ticket-card .fusion-column-wrapper { min-height: 250px !important; }
+    /* News
+    ------------------------*/
+    #news article:last-of-type { margin-top: 35px !important; }
+    /* Video Vault
+    ------------------------*/
+    #video-vault .fusion-builder-row-inner .fusion-column-wrapper { justify-content: center !important; }
+
+    /* About the Championship
+    -------------------------------------------------*/
+    #about-table thead th, #about-table tr, #about-table td { font-size: 11px !important; height: 60px !important; }
+    /* Travel
+    -------------------------------------------------*/
+    #travel-tabs .tab-wrapper { margin-top: 400px !important; }
+    #travel-tabs .tab-map { top: -490px !important; }
+    #travel-tabs .fusion-tabs h3 { text-align: center !important; }
+    /* News Page & Articles
+    -------------------------------------------------*/
+    .news-page .news-post-content :is(h2, a) { font-size: 32px !important; text-align: center !important; }
+    .news-page .news-post-content .fusion-flexslider { margin-left: auto !important; margin-right: auto !important; }
+    #news-post .recent-news :is(h2, .fusion-alignleft) { text-align: center !important; width: 100% !important; }
+}
+@media only screen and (max-width: 700px) {
+    /* Global
+    -------------------------------------------------*/
+    h1 { font-size: 40px !important; }
+    h2 { font-size: 28px !important; }
+    h3 { font-size: 20px !important; }
+    h6 { font-size: 18px !important; }
+    #content { margin-bottom: 0px !important; }
+    /* Footer 
+    -------------------------------------------------*/
+    #footer .links, #footer .logos { width: 100% !important; }
+    #footer .logos .fusion-column-wrapper { flex-direction: column !important; }
+    #footer .logos .fusion-imageframe { min-width: unset !important; }
+    #footer .logos img { margin-bottom: 20px !important; }
+    #footer .logo-bar .fusion-column-wrapper div { width: 33.33333% !important; text-align: center !important; }
+    #footer .logo-bar img { max-width: 80px !important; max-height: 35px !important; margin-bottom: 30px !important; }
+    #footer-social a.fusion-social-network-icon { font-size: 16px !important; }
+    /* Homepage
+    /* News
+    ------------------------*/
+    #news article :is(h2, p, span) { text-align: center !important; }
+    #news article .fusion-meta-info { display: flex !important;}
+    #news article .fusion-meta-info :is(.fusion-alignleft, a) { margin: auto !important; text-align: center !important; }
+    /* Video Vault
+    ------------------------*/
+    #video-vault .fusion-builder-row-inner .fusion-column-wrapper { justify-content: center !important; }
+    #video-vault .fusion-builder-row-inner .fusion-imageframe { margin: 0px !important; }
+
+    /* About the Championship
+    -------------------------------------------------*/
+    #timeline .fusion-builder-row-inner:after { display: none !important; }
+    #timeline .timeline-wrapper:after { display: none !important; }
+    #partners .bwf-logo { aspect-ratio: unset; }
+    /* Travel
+    -------------------------------------------------*/
+    #travel-tabs-mobile img { margin-bottom: 25px !important; }
+    #travel-tabs-mobile .fusion-builder-row-inner { margin-bottom: 25px !important; }
+    #travel-tabs-mobile .fusion-builder-row-inner:last-of-type { margin-bottom: 0px !important; }
+    /* News Page & Articles
+    -------------------------------------------------*/
+    .news-page .news-post-content :is(h2, a) { font-size: 28px !important; }
+}
