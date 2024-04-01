@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+
+    <style>
+      #container {
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 0px;
+        touch-action: none;
+      }
+
+      .item {
+        border-radius: 0%;
+        touch-action: reset;
+        user-select: none;
+        position: absolute;
+        mix-blend-mode: multiply;
+      }
+
+      .one {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.9;
+        top: 0px;
+        left: 0px;
+      }
+
+      .two {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 120, 191);
+        opacity: 0.9;
+        top: 0px;
+        left: 80px;
+      }
+
+      .three {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 169, 92);
+        opacity: 0.9;
+        top: 0px;
+        left: 160px;
+      }
+
+      .four {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(50, 85, 164);
+        opacity: 0.9;
+        top: 0px;
+        left: 240px;
+      }
+
+      .five {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(241, 80, 96);
+        opacity: 0.9;
+        top: 0px;
+        left: 320px;
+      }
+
+      .six {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(118, 91, 167);
+        opacity: 0.9;
+        top: 0px;
+        left: 400px;
+      }
+
+      .seven {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 131, 138);
+        opacity: 0.9;
+        top: 0px;
+        left: 480px;
+      }
+
+      .eight {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 232, 0);
+        opacity: 0.9;
+        top: 0px;
+        left: 560px;
+      }
+
+      .nine {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 108, 47);
+        opacity: 0.9;
+        top: 00px;
+        left: 640px;
+      }
+
+      .ten {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 72, 176);
+        opacity: 0.9;
+        top: 0px;
+        left: 720px;
+      }
+
+      .eleven {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(172, 147, 110);
+        opacity: 0.9;
+        top: 0px;
+        left: 800px;
+      }
+
+      .twelve {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(98, 168, 229);
+        opacity: 0.9;
+        top: 0px;
+        left: 880px;
+      }
+
+      .thirteen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.5;
+        top: 80px;
+        left: 0px;
+      }
+
+      .fourteen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 120, 191);
+        opacity: 0.5;
+        top: 80px;
+        left: 80px;
+      }
+
+      .fifteen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 169, 92);
+        opacity: 0.5;
+        top: 80px;
+        left: 160px;
+      }
+
+      .sixteen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(50, 85, 164);
+        opacity: 0.5;
+        top: 80px;
+        left: 240px;
+      }
+
+      .seventeen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(241, 80, 96);
+        opacity: 0.5;
+        top: 80px;
+        left: 320px;
+      }
+
+      .eighteen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(118, 91, 167);
+        opacity: 0.5;
+        top: 80px;
+        left: 400px;
+      }
+
+      .ninteen {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 131, 138);
+        opacity: 0.5;
+        top: 80px;
+        left: 480px;
+      }
+
+      .twenty {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 232, 0);
+        opacity: 0.5;
+        top: 80px;
+        left: 560px;
+      }
+
+      .twentyone {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 108, 47);
+        opacity: 0.5;
+        top: 80px;
+        left: 640px;
+      }
+
+      .twentytwo {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 72, 176);
+        opacity: 0.5;
+        top: 80px;
+        left: 720px;
+      }
+
+      .twentythree {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(172, 147, 110);
+        opacity: 0.5;
+        top: 80px;
+        left: 800px;
+      }
+
+      .twentyfour {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(98, 168, 229);
+        opacity: 0.5;
+        top: 80px;
+        left: 880px;
+      }
+
+      .twentyfive {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 0, 0);
+        opacity: 0.2;
+        top: 160px;
+        left: 0px;
+      }
+
+      .twentysix {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 120, 191);
+        opacity: 0.2;
+        top: 160px;
+        left: 80px;
+      }
+
+      .twentyseven {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 169, 92);
+        opacity: 0.2;
+        top: 160px;
+        left: 160px;
+      }
+
+      .twentyeight {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(50, 85, 164);
+        opacity: 0.2;
+        top: 160px;
+        left: 240px;
+      }
+
+      .twentynine {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(241, 80, 96);
+        opacity: 0.2;
+        top: 160px;
+        left: 320px;
+      }
+
+      .thirty {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(118, 91, 167);
+        opacity: 0.2;
+        top: 160px;
+        left: 400px;
+      }
+
+      .thirtyone {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(0, 131, 138);
+        opacity: 0.2;
+        top: 160px;
+        left: 480px;
+      }
+
+      .thirtytwo {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 232, 0);
+        opacity: 0.2;
+        top: 160px;
+        left: 560px;
+      }
+
+      .thirtythree {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 108, 47);
+        opacity: 0.2;
+        top: 160px;
+        left: 640px;
+      }
+
+      .thirtyfour {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(255, 72, 176);
+        opacity: 0.2;
+        top: 160px;
+        left: 720px;
+      }
+
+      .thirtyfive {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(172, 147, 110);
+        opacity: 0.2;
+        top: 160px;
+        left: 800px;
+      }
+
+      .thirtysix {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(98, 168, 229);
+        opacity: 0.2;
+        top: 160px;
+        left: 880px;
+      }
+
+      .item:active {
+        opacity: 0.75;
+      }
+
+      .item:hover {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="outerContainer">
+      <div id="container">
+        <div class="item one"></div>
+        <div class="item two"></div>
+        <div class="item three"></div>
+        <div class="item four"></div>
+        <div class="item five"></div>
+        <div class="item six"></div>
+        <div class="item seven"></div>
+        <div class="item eight"></div>
+        <div class="item nine"></div>
+        <div class="item ten"></div>
+        <div class="item eleven"></div>
+        <div class="item twelve"></div>
+        <div class="item thirteen"></div>
+        <div class="item fourteen"></div>
+        <div class="item fifteen"></div>
+        <div class="item sixteen"></div>
+        <div class="item seventeen"></div>
+        <div class="item eighteen"></div>
+        <div class="item ninteen"></div>
+        <div class="item twenty"></div>
+        <div class="item twentyone"></div>
+        <div class="item twentytwo"></div>
+        <div class="item twentythree"></div>
+        <div class="item twentyfour"></div>
+        <div class="item twentyfive"></div>
+        <div class="item twentysix"></div>
+        <div class="item twentyseven"></div>
+        <div class="item twentyeight"></div>
+        <div class="item twentynine"></div>
+        <div class="item thirty"></div>
+        <div class="item thirtyone"></div>
+        <div class="item thirtytwo"></div>
+        <div class="item thirtythree"></div>
+        <div class="item thirtyfour"></div>
+        <div class="item thirtyfive"></div>
+        <div class="item thirtysix"></div>
+      </div>
+
+      <script>
+        var container = document.querySelector('#container')
+        var activeItem = null
+
+        var active = false
+
+        container.addEventListener('touchstart', dragStart, false)
+        container.addEventListener('touchend', dragEnd, false)
+        container.addEventListener('touchmove', drag, false)
+
+        container.addEventListener('mousedown', dragStart, false)
+        container.addEventListener('mouseup', dragEnd, false)
+        container.addEventListener('mousemove', drag, false)
+
+        function dragStart(e) {
+          if (e.target !== e.currentTarget) {
+            active = true
+
+            // this is the item we are interacting with
+            activeItem = e.target
+
+            if (activeItem !== null) {
+              if (!activeItem.xOffset) {
+                activeItem.xOffset = 0
+              }
+
+              if (!activeItem.yOffset) {
+                activeItem.yOffset = 0
+              }
+
+              if (e.type === 'touchstart') {
+                activeItem.initialX = e.touches[0].clientX - activeItem.xOffset
+                activeItem.initialY = e.touches[0].clientY - activeItem.yOffset
+              } else {
+                console.log('doing something!')
+                activeItem.initialX = e.clientX - activeItem.xOffset
+                activeItem.initialY = e.clientY - activeItem.yOffset
+              }
+            }
+          }
+        }
+
+        function dragEnd(e) {
+          if (activeItem !== null) {
+            activeItem.initialX = activeItem.currentX
+            activeItem.initialY = activeItem.currentY
+          }
+
+          active = false
+          activeItem = null
+        }
+
+        function drag(e) {
+          if (active) {
+            if (e.type === 'touchmove') {
+              e.preventDefault()
+
+              activeItem.currentX = e.touches[0].clientX - activeItem.initialX
+              activeItem.currentY = e.touches[0].clientY - activeItem.initialY
+            } else {
+              activeItem.currentX = e.clientX - activeItem.initialX
+              activeItem.currentY = e.clientY - activeItem.initialY
+            }
+
+            activeItem.xOffset = activeItem.currentX
+            activeItem.yOffset = activeItem.currentY
+
+            setTranslate(activeItem.currentX, activeItem.currentY, activeItem)
+          }
+        }
+
+        function setTranslate(xPos, yPos, el) {
+          el.style.transform = 'translate3d(' + xPos + 'px, ' + yPos + 'px, 0)'
+        }
+      </script>
+    </div>
+  </body>
+</html>
