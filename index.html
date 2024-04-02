@@ -132,6 +132,12 @@
       )
     </script>
     <script id="sendFedopsLoadStarted">
+      // Object.defineProperty(window.navigator, 'userAgent', {
+      //   value: 'Android (Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19',
+      //   writable: false
+      // });
+
+      console.log(window.navigator.userAgent)
       function e(e, r) {
         var t = Object.keys(e)
         if (Object.getOwnPropertySymbols) {
@@ -204,6 +210,7 @@
           d =
             (function (e) {
               var r = e.navigator.userAgent
+
               return /instagram.+google\/google/i.test(r)
                 ? ''
                 : /bot|google(?!play)|phantom|crawl|spider|headless|slurp|facebookexternal|Lighthouse|PTST|^mozilla\/4\.0$|^\s*$/i.test(
