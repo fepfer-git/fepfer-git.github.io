@@ -5239,12 +5239,10 @@
     8373: function (e, t, n) {
       'use strict'
       var a = n(31),
-        r = n
-          .n(a)()
-          .buildClient({
-            storefrontAccessToken: 'e96be7173775e28407c8cba33f072043',
-            domain: 'store.clams.lol',
-          })
+        r = n.n(a)().buildClient({
+          storefrontAccessToken: 'e96be7173775e28407c8cba33f072043',
+          domain: 'store.clams.lol',
+        })
       t.Z = r
     },
     8415: function (e, t, n) {
@@ -7733,7 +7731,7 @@
                   className: 'w-[35px] h-[35px] lg:w-[41px] lg:h-[40px]',
                   sources: [
                     {
-                      srcSet: '/images/icon-cart.svg',
+                      srcSet: './index_files/icon-cart.svg',
                       media: '(min-width: 600px)',
                     },
                   ],
