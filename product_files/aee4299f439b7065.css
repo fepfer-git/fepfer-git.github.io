@@ -715,7 +715,7 @@ video {
 }
 .link-black-cream.active,
 .link-black-cream:hover {
-  color: #f8ece2;
+  color: #8ed8f8;
 }
 .link-opacity.active,
 .link-opacity:hover {
@@ -1273,7 +1273,7 @@ input[type='checkbox'].input-form:checked:after {
   position: absolute;
   top: 0;
   --tw-bg-opacity: 1;
-  background-color: rgb(255 100 68 / var(--tw-bg-opacity));
+  background-color: #293896;
   left: 50%;
   transform: translateX(-50%);
   height: 90px;
