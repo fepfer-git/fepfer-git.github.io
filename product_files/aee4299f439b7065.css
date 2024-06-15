@@ -1295,8 +1295,8 @@ input[type='checkbox'].input-form:checked:after {
 }
 @media (min-width: 1000px) {
   .header__logo {
-    width: 105px;
-    left: -2px;
+    width: 85px;
+    left: 1px;
   }
 }
 .shadow-shell-border {
