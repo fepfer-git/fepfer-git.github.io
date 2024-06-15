@@ -1067,8 +1067,8 @@ video {
 }
 .button.button-color-bg.active,
 .button.button-color-bg:hover {
-  color: #f8ece2;
-  background: #000 !important;
+  color: #f8ece2 !important;
+  background: #8ed8f8 !important;
 }
 .button.button-yellow-large {
   --tw-bg-opacity: 1;
