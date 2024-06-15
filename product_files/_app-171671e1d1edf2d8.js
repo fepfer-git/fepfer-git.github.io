@@ -5239,12 +5239,10 @@
     8373: function (e, t, n) {
       'use strict'
       var a = n(31),
-        r = n
-          .n(a)()
-          .buildClient({
-            storefrontAccessToken: 'e96be7173775e28407c8cba33f072043',
-            domain: 'store.clams.lol',
-          })
+        r = n.n(a)().buildClient({
+          storefrontAccessToken: 'e96be7173775e28407c8cba33f072043',
+          domain: 'store.clams.lol',
+        })
       t.Z = r
     },
     8415: function (e, t, n) {
@@ -8465,12 +8463,13 @@
               (0, d.jsx)(Zt.Z, {
                 style: (0, tn.Z)(1221 / 523),
                 alt: 'Clam-O-Naise Logo',
-                src: './product_files/logo-footer.svg',
+                src: './product_files/logo-footer.png',
                 lazyBlur: !1,
               }),
               (0, d.jsx)('div', {
                 className:
                   'w-[82px] lg:w-[11vw] absolute top-[60px] right-[15vw] sm:right-[20vw] lg:top-[160px]',
+                style: { display: 'none' },
                 children: (0, d.jsx)(Yt.m.div, {
                   initial: { x: '-25vw', y: '25vw' },
                   animate: { x: o ? 0 : '-25vw', y: o ? 0 : '25vw' },
