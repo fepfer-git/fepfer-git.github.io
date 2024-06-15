@@ -704,11 +704,11 @@ video {
   transition: text-decoration-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1),
     -webkit-text-decoration-color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
-.link-underline-hover-red.active,
+/* .link-underline-hover-red.active,
 .link-underline-hover-red:hover {
   -webkit-text-decoration-color: #ff6444;
   text-decoration-color: #ff6444;
-}
+} */
 .link-black-cream {
   color: #000;
   transition: color 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -2224,7 +2224,7 @@ input[type='checkbox'].input-form:checked:after {
   --tw-bg-opacity: 1;
 }
 .bg-cork {
-  background-color: rgb(241 197 159 / var(--tw-bg-opacity));
+  background-color: #8ed8f8;
 }
 .bg-red-light {
   --tw-bg-opacity: 1;
@@ -2793,7 +2793,7 @@ html {
 body,
 html {
   --tw-bg-opacity: 1;
-  background-color: rgb(248 236 226 / var(--tw-bg-opacity));
+  background-color: #fffcea;
   font-family: Antipol, Helvetica Neue LT Std, -apple-system, BlinkMacSystemFont,
     Helvetica Neue, Helvetica, sans-serif;
   font-size: 18px;
