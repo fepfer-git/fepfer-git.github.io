@@ -5,7 +5,7 @@
 [data-marqy-inner] {
   display: flex;
 }
-[data-marqy][data-direction='right'] [data-marqy-inner] {
+[data-marqy][data-direction="right"] [data-marqy-inner] {
   justify-content: flex-end;
 }
 [data-marqy-content] {
@@ -19,11 +19,11 @@
   animation-play-state: running;
   will-change: transform;
 }
-[data-marqy][data-direction='left'] [data-marqy-content] {
+[data-marqy][data-direction="left"] [data-marqy-content] {
   -webkit-animation-name: marqyL;
   animation-name: marqyL;
 }
-[data-marqy][data-direction='right'] [data-marqy-content] {
+[data-marqy][data-direction="right"] [data-marqy-content] {
   -webkit-animation-name: marqyR;
   animation-name: marqyR;
 }
@@ -74,4 +74,7 @@
     -webkit-animation: none !important;
     animation: none !important;
   }
+}
+html * {
+  font-family: "Bricolage Grotesque", sans-serif !important;
 }

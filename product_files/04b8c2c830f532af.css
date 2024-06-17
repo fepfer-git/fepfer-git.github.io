@@ -27,3 +27,6 @@
 .keen-slider:not([data-keen-slider-disabled])[data-keen-slider-moves] * {
   pointer-events: none;
 }
+html * {
+  font-family: "Bricolage Grotesque", sans-serif !important;
+}
