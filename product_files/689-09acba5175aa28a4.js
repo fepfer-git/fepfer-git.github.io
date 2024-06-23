@@ -358,7 +358,8 @@
           }, []);
           var l = i && (0, a.jsx)(s.Z, {});
           return (0, a.jsx)("div", {
-            className: "min-h-screen flex flex-col justify-center items-center",
+            className:
+              "min-h-screen flex flex-col justify-center items-center d-none",
             children: l,
           });
         },

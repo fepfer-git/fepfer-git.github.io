@@ -7745,11 +7745,11 @@
                   className: "w-[35px] h-[35px] lg:w-[41px] lg:h-[40px]",
                   sources: [
                     {
-                      srcSet: "/images/icon-cart.svg",
+                      srcSet: "./product_files/icon-cart.svg",
                       media: "(min-width: 600px)",
                     },
                   ],
-                  src: "/images/icon-cart-mobile.svg",
+                  src: "./product_files/icon-cart-mobile.svg",
                 }),
                 (0, d.jsx)("span", {
                   className:
@@ -7773,14 +7773,14 @@
               className: "flex gap-2",
               children: n.map(function (e) {
                 return (0,
-                d.jsx)("li", { children: (0, d.jsx)(Bt.Z, (0, r.Z)((0, a.Z)({}, e), { className: "p-1 block link-black-cream font-caps text-caps-36" })) }, e._key);
+                d.jsx)("li", { children: (0, d.jsx)(Bt.Z, (0, r.Z)((0, a.Z)({}, e), { className: "p-1 block link-black-cream font-caps text-caps-36", style: { color: "#ffffff" } })) }, e._key);
               }),
             }),
             V = (0, d.jsx)("ul", {
               className: "flex justify-end gap-2",
               children: u.map(function (e) {
                 return (0,
-                d.jsx)("li", { children: (0, d.jsx)(Bt.Z, (0, r.Z)((0, a.Z)({}, e), { className: "p-1 block link-black-cream font-caps text-caps-36" })) }, e._key);
+                d.jsx)("li", { children: (0, d.jsx)(Bt.Z, (0, r.Z)((0, a.Z)({}, e), { className: "p-1 block link-black-cream font-caps text-caps-36", style: { color: "#ffffff" } })) }, e._key);
               }),
             }),
             S = (0, d.jsx)("div", {
@@ -7875,7 +7875,7 @@
                               className: "block",
                               children: (0, d.jsx)("img", {
                                 className: "block header__logo",
-                                src: "/images/logo-header.svg",
+                                src: "./product_files/logo-header.png",
                                 alt: "Clam-O-Naise Logo",
                               }),
                             }),
@@ -7943,7 +7943,7 @@
                                 className: "block",
                                 children: (0, d.jsx)("img", {
                                   className: "block w-[74px]",
-                                  src: "/images/logo-header.svg",
+                                  src: "./product_files/logo-header.png",
                                   alt: "Clam-O-Naise Logo",
                                 }),
                               }),
@@ -8300,7 +8300,7 @@
                     className:
                       "absolute w-[110vh] right-full bottom-full origin-bottom-right -rotate-90 translate-x-[1vw] h-[70px]",
                     children: (0, d.jsx)("img", {
-                      src: "/images/icon-wave-cream.svg",
+                      src: "./product_files/icon-wave-cream.svg",
                       className: "w-full h-full shadow-wave-divider-top",
                     }),
                   }),
@@ -8331,11 +8331,7 @@
                   className:
                     "text-center rich-text rich-text-bold-red text-sans-16 mt-half mb-[15px]",
                   children: (0, d.jsxs)("p", {
-                    children: [
-                      "Spend",
-                      (0, d.jsxs)("b", { children: [" ", (0, un.Z)(C), " "] }),
-                      "for free US shipping!",
-                    ],
+                    children: ["Miễn phí vận chuyển cho đơn hàng từ 500.000đ"],
                   }),
                 }))
               : C > 0
@@ -8389,7 +8385,7 @@
                             (0, d.jsx)("hr", {}),
                             (0, d.jsx)("div", {
                               className:
-                                "hidden md:block absolute top-[-10px] left-[-10px]",
+                                "hidden md:block absolute top-[-10px] left-[-10px] d-none",
                               children: (0, d.jsx)("button", {
                                 onClick: P,
                                 "aria-label": "Close Cart",
@@ -8416,7 +8412,7 @@
                           className:
                             "flex justify-between py-[15px] uppercase text-sans-22",
                           children: [
-                            (0, d.jsx)("h3", { children: "Subtotal" }),
+                            (0, d.jsx)("h3", { children: "Tổng cộng" }),
                             (0, d.jsx)("p", { children: mn(m) }),
                           ],
                         }),
@@ -8440,7 +8436,7 @@
                               children: [
                                 (0, d.jsx)("img", {
                                   className: "block rotate-180",
-                                  src: "/images/icon-arrow-pill-button.svg",
+                                  src: "./product_files/icon-arrow-pill-button.svg",
                                 }),
                                 (0, d.jsx)("span", { children: o }),
                               ],
@@ -8467,13 +8463,14 @@
             u = i.ref;
           return (0, d.jsxs)("div", {
             ref: u,
-            className: "bg-black text-cream p-2 lg:p-4 relative",
+            className: "text-cream relative",
+            style: { backgroundColor: "#fffcea" },
             children: [
               (0, d.jsx)("ul", {
-                className: "flex justify-between mb-7 lg:mb-15",
+                className: "flex justify-between mb-2 mt-2 px-2",
                 children: n.map(function (e) {
                   return (0,
-                  d.jsx)("li", { children: (0, d.jsx)(Bt.Z, (0, r.Z)((0, a.Z)({}, e), { className: "block link-underline-hover-red uppercase text-sans-18 lg:text-sans-30" })) }, e._key);
+                  d.jsx)("li", { children: (0, d.jsx)(Bt.Z, (0, r.Z)((0, a.Z)({}, e), { className: "block link-underline-hover-red uppercase text-sans-18 lg:text-sans-30", style: { color: "#293896" } })) }, e._key);
                 }),
               }),
               (0, d.jsx)(Zt.Z, {
@@ -8919,11 +8916,11 @@
       function a(e) {
         var t = e / 100;
         if (t % 1 === 0)
-          return "$".concat(t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+          return "".concat(t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
         var n = t.toFixed(2).split(".");
         return (
           (n[0] = n[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",")),
-          "$".concat(n.join("."))
+          "".concat(n.join("."))
         );
       }
       n.d(t, {

@@ -3899,3 +3899,27 @@ textarea.loading * {
     right: -30%;
   }
 }
+@font-face {
+  font-family: "Bricolage Bricolage";
+  src: url("../font/Bricolage.ttf") format("truetype");
+  /* You can specify additional formats here if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Bold font */
+@font-face {
+  font-family: "Bricolage Bricolage";
+  src: url("../font/Bricolage-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply the custom font to all elements */
+body {
+  font-family: "Bricolage Bricolage", sans-serif !important;
+}
+
+.d-none {
+  display: none !important;
+}
