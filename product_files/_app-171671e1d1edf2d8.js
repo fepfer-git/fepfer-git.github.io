@@ -3786,7 +3786,7 @@
                 /hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g,
                 "$1.*?"
               ) +
-            "$"
+            ""
         );
       e.exports = function (e) {
         return !(!d(e) || r(e)) && (a(e) ? f : o).test(i(e));
@@ -8246,7 +8246,7 @@
         var t = (e / 100).toFixed(2).split(".");
         return (
           (t[0] = t[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",")),
-          "$".concat(t.join("."))
+          "".concat(t.join("."))
         );
       }
       var gn = function (e) {
@@ -8427,7 +8427,8 @@
                           children: f ? "Checking Out\u2026" : i,
                         }),
                         (0, d.jsx)("div", {
-                          className: "md:hidden mt-1 flex justify-center",
+                          className:
+                            "md:hidden mt-1 flex justify-center d-none",
                           children: (0, d.jsx)("button", {
                             onClick: P,
                             className: "block button button-pill",
